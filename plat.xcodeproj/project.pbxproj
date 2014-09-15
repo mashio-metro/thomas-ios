@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8620226F19C51AAC001ED342 /* PLTModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8620226E19C51AAC001ED342 /* PLTModel.m */; };
+		8620227219C51C2A001ED342 /* PLTRailway.m in Sources */ = {isa = PBXBuildFile; fileRef = 8620227119C51C2A001ED342 /* PLTRailway.m */; };
+		8623D3CC19C6DCE200FD5792 /* PLTAPIStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 8623D3CB19C6DCE200FD5792 /* PLTAPIStatus.m */; };
+		8623D3D119C6E62C00FD5792 /* PLTSpotInformationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8623D3CF19C6E62C00FD5792 /* PLTSpotInformationViewController.m */; };
+		8623D3D219C6E62C00FD5792 /* PLTSpotInformationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8623D3D019C6E62C00FD5792 /* PLTSpotInformationViewController.xib */; };
+		8623D3D619C6E65500FD5792 /* PLTRailwayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8623D3D419C6E65500FD5792 /* PLTRailwayViewController.m */; };
+		8623D3D719C6E65500FD5792 /* PLTRailwayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8623D3D519C6E65500FD5792 /* PLTRailwayViewController.xib */; };
+		8623D3DB19C6E68D00FD5792 /* PLTIntroductionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8623D3D919C6E68D00FD5792 /* PLTIntroductionViewController.m */; };
+		8623D3DC19C6E68D00FD5792 /* PLTIntroductionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8623D3DA19C6E68D00FD5792 /* PLTIntroductionViewController.xib */; };
+		86D920CA19C49A1200942E4B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86D920C919C49A1200942E4B /* Foundation.framework */; };
+		86D920CC19C49A1200942E4B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86D920CB19C49A1200942E4B /* CoreGraphics.framework */; };
+		86D920CE19C49A1200942E4B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86D920CD19C49A1200942E4B /* UIKit.framework */; };
+		86D920D419C49A1200942E4B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 86D920D219C49A1200942E4B /* InfoPlist.strings */; };
+		86D920D619C49A1200942E4B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 86D920D519C49A1200942E4B /* main.m */; };
+		86D920DA19C49A1200942E4B /* PLTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 86D920D919C49A1200942E4B /* PLTAppDelegate.m */; };
+		86D920DD19C49A1200942E4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86D920DB19C49A1200942E4B /* Main.storyboard */; };
+		86D920E019C49A1200942E4B /* PLTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86D920DF19C49A1200942E4B /* PLTViewController.m */; };
+		86D920E219C49A1200942E4B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86D920E119C49A1200942E4B /* Images.xcassets */; };
+		86D920E919C49A1200942E4B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86D920E819C49A1200942E4B /* XCTest.framework */; };
+		86D920EA19C49A1200942E4B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86D920C919C49A1200942E4B /* Foundation.framework */; };
+		86D920EB19C49A1200942E4B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86D920CD19C49A1200942E4B /* UIKit.framework */; };
+		86D920F319C49A1200942E4B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 86D920F119C49A1200942E4B /* InfoPlist.strings */; };
+		86D920F519C49A1200942E4B /* plat_iosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 86D920F419C49A1200942E4B /* plat_iosTests.m */; };
+		F26DCB2AC29F4ED9BAE44A4F /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ED786EA2E8BB4EA3ACE2845D /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		86D920EC19C49A1200942E4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 86D920BE19C49A1200942E4B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 86D920C519C49A1200942E4B;
+			remoteInfo = "plat";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8620226D19C51AAC001ED342 /* PLTModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PLTModel.h; path = Models/PLTModel.h; sourceTree = "<group>"; };
+		8620226E19C51AAC001ED342 /* PLTModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PLTModel.m; path = Models/PLTModel.m; sourceTree = "<group>"; };
+		8620227019C51C2A001ED342 /* PLTRailway.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PLTRailway.h; path = Models/PLTRailway.h; sourceTree = "<group>"; };
+		8620227119C51C2A001ED342 /* PLTRailway.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PLTRailway.m; path = Models/PLTRailway.m; sourceTree = "<group>"; };
+		8623D3CA19C6DCE200FD5792 /* PLTAPIStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PLTAPIStatus.h; path = Models/PLTAPIStatus.h; sourceTree = "<group>"; };
+		8623D3CB19C6DCE200FD5792 /* PLTAPIStatus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PLTAPIStatus.m; path = Models/PLTAPIStatus.m; sourceTree = "<group>"; };
+		8623D3CE19C6E62C00FD5792 /* PLTSpotInformationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PLTSpotInformationViewController.h; path = Views/PLTSpotInformationViewController.h; sourceTree = "<group>"; };
+		8623D3CF19C6E62C00FD5792 /* PLTSpotInformationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PLTSpotInformationViewController.m; path = Views/PLTSpotInformationViewController.m; sourceTree = "<group>"; };
+		8623D3D019C6E62C00FD5792 /* PLTSpotInformationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PLTSpotInformationViewController.xib; path = Views/PLTSpotInformationViewController.xib; sourceTree = "<group>"; };
+		8623D3D319C6E65500FD5792 /* PLTRailwayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PLTRailwayViewController.h; path = Views/PLTRailwayViewController.h; sourceTree = "<group>"; };
+		8623D3D419C6E65500FD5792 /* PLTRailwayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PLTRailwayViewController.m; path = Views/PLTRailwayViewController.m; sourceTree = "<group>"; };
+		8623D3D519C6E65500FD5792 /* PLTRailwayViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PLTRailwayViewController.xib; path = Views/PLTRailwayViewController.xib; sourceTree = "<group>"; };
+		8623D3D819C6E68D00FD5792 /* PLTIntroductionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PLTIntroductionViewController.h; path = Views/PLTIntroductionViewController.h; sourceTree = "<group>"; };
+		8623D3D919C6E68D00FD5792 /* PLTIntroductionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PLTIntroductionViewController.m; path = Views/PLTIntroductionViewController.m; sourceTree = "<group>"; };
+		8623D3DA19C6E68D00FD5792 /* PLTIntroductionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PLTIntroductionViewController.xib; path = Views/PLTIntroductionViewController.xib; sourceTree = "<group>"; };
+		86D920C619C49A1200942E4B /* plat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = plat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		86D920C919C49A1200942E4B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		86D920CB19C49A1200942E4B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		86D920CD19C49A1200942E4B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		86D920D119C49A1200942E4B /* plat-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "plat-Info.plist"; sourceTree = "<group>"; };
+		86D920D319C49A1200942E4B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		86D920D519C49A1200942E4B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		86D920D719C49A1200942E4B /* plat-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "plat-Prefix.pch"; sourceTree = "<group>"; };
+		86D920D819C49A1200942E4B /* PLTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PLTAppDelegate.h; sourceTree = "<group>"; };
+		86D920D919C49A1200942E4B /* PLTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PLTAppDelegate.m; sourceTree = "<group>"; };
+		86D920DC19C49A1200942E4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		86D920DE19C49A1200942E4B /* PLTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PLTViewController.h; sourceTree = "<group>"; };
+		86D920DF19C49A1200942E4B /* PLTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PLTViewController.m; sourceTree = "<group>"; };
+		86D920E119C49A1200942E4B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		86D920E719C49A1200942E4B /* platTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = platTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		86D920E819C49A1200942E4B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		86D920F019C49A1200942E4B /* platTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "platTests-Info.plist"; sourceTree = "<group>"; };
+		86D920F219C49A1200942E4B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		86D920F419C49A1200942E4B /* plat_iosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = plat_iosTests.m; sourceTree = "<group>"; };
+		DEA6E05B745A482DA2238756 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		ED786EA2E8BB4EA3ACE2845D /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		86D920C319C49A1200942E4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86D920CC19C49A1200942E4B /* CoreGraphics.framework in Frameworks */,
+				86D920CE19C49A1200942E4B /* UIKit.framework in Frameworks */,
+				86D920CA19C49A1200942E4B /* Foundation.framework in Frameworks */,
+				F26DCB2AC29F4ED9BAE44A4F /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86D920E419C49A1200942E4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86D920E919C49A1200942E4B /* XCTest.framework in Frameworks */,
+				86D920EB19C49A1200942E4B /* UIKit.framework in Frameworks */,
+				86D920EA19C49A1200942E4B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8620226C19C51A75001ED342 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8620226D19C51AAC001ED342 /* PLTModel.h */,
+				8620226E19C51AAC001ED342 /* PLTModel.m */,
+				8620227019C51C2A001ED342 /* PLTRailway.h */,
+				8620227119C51C2A001ED342 /* PLTRailway.m */,
+				8623D3CA19C6DCE200FD5792 /* PLTAPIStatus.h */,
+				8623D3CB19C6DCE200FD5792 /* PLTAPIStatus.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		8623D3CD19C6E5FF00FD5792 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8623D3CE19C6E62C00FD5792 /* PLTSpotInformationViewController.h */,
+				8623D3CF19C6E62C00FD5792 /* PLTSpotInformationViewController.m */,
+				8623D3D019C6E62C00FD5792 /* PLTSpotInformationViewController.xib */,
+				8623D3D319C6E65500FD5792 /* PLTRailwayViewController.h */,
+				8623D3D419C6E65500FD5792 /* PLTRailwayViewController.m */,
+				8623D3D519C6E65500FD5792 /* PLTRailwayViewController.xib */,
+				8623D3D819C6E68D00FD5792 /* PLTIntroductionViewController.h */,
+				8623D3D919C6E68D00FD5792 /* PLTIntroductionViewController.m */,
+				8623D3DA19C6E68D00FD5792 /* PLTIntroductionViewController.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		86D920BD19C49A1200942E4B = {
+			isa = PBXGroup;
+			children = (
+				86D920CF19C49A1200942E4B /* plat */,
+				86D920EE19C49A1200942E4B /* platTests */,
+				86D920C819C49A1200942E4B /* Frameworks */,
+				86D920C719C49A1200942E4B /* Products */,
+				DEA6E05B745A482DA2238756 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		86D920C719C49A1200942E4B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				86D920C619C49A1200942E4B /* plat.app */,
+				86D920E719C49A1200942E4B /* platTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		86D920C819C49A1200942E4B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				86D920C919C49A1200942E4B /* Foundation.framework */,
+				86D920CB19C49A1200942E4B /* CoreGraphics.framework */,
+				86D920CD19C49A1200942E4B /* UIKit.framework */,
+				86D920E819C49A1200942E4B /* XCTest.framework */,
+				ED786EA2E8BB4EA3ACE2845D /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		86D920CF19C49A1200942E4B /* plat */ = {
+			isa = PBXGroup;
+			children = (
+				8623D3CD19C6E5FF00FD5792 /* Views */,
+				8620226C19C51A75001ED342 /* Models */,
+				86D920D819C49A1200942E4B /* PLTAppDelegate.h */,
+				86D920D919C49A1200942E4B /* PLTAppDelegate.m */,
+				86D920DB19C49A1200942E4B /* Main.storyboard */,
+				86D920DE19C49A1200942E4B /* PLTViewController.h */,
+				86D920DF19C49A1200942E4B /* PLTViewController.m */,
+				86D920E119C49A1200942E4B /* Images.xcassets */,
+				86D920D019C49A1200942E4B /* Supporting Files */,
+			);
+			name = plat;
+			path = "plat";
+			sourceTree = "<group>";
+		};
+		86D920D019C49A1200942E4B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				86D920D119C49A1200942E4B /* plat-Info.plist */,
+				86D920D219C49A1200942E4B /* InfoPlist.strings */,
+				86D920D519C49A1200942E4B /* main.m */,
+				86D920D719C49A1200942E4B /* plat-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		86D920EE19C49A1200942E4B /* platTests */ = {
+			isa = PBXGroup;
+			children = (
+				86D920F419C49A1200942E4B /* plat_iosTests.m */,
+				86D920EF19C49A1200942E4B /* Supporting Files */,
+			);
+			name = platTests;
+			path = "platTests";
+			sourceTree = "<group>";
+		};
+		86D920EF19C49A1200942E4B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				86D920F019C49A1200942E4B /* platTests-Info.plist */,
+				86D920F119C49A1200942E4B /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		86D920C519C49A1200942E4B /* plat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86D920F819C49A1200942E4B /* Build configuration list for PBXNativeTarget "plat" */;
+			buildPhases = (
+				CD39411AB1B54137B0C5E34A /* Check Pods Manifest.lock */,
+				86D920C219C49A1200942E4B /* Sources */,
+				86D920C319C49A1200942E4B /* Frameworks */,
+				86D920C419C49A1200942E4B /* Resources */,
+				CB61FF6E7F1B4B8C951AEF32 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = plat;
+			productName = "plat";
+			productReference = 86D920C619C49A1200942E4B /* plat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		86D920E619C49A1200942E4B /* platTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86D920FB19C49A1200942E4B /* Build configuration list for PBXNativeTarget "platTests" */;
+			buildPhases = (
+				86D920E319C49A1200942E4B /* Sources */,
+				86D920E419C49A1200942E4B /* Frameworks */,
+				86D920E519C49A1200942E4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				86D920ED19C49A1200942E4B /* PBXTargetDependency */,
+			);
+			name = platTests;
+			productName = "platTests";
+			productReference = 86D920E719C49A1200942E4B /* platTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		86D920BE19C49A1200942E4B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PLT;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = plat;
+				TargetAttributes = {
+					86D920E619C49A1200942E4B = {
+						TestTargetID = 86D920C519C49A1200942E4B;
+					};
+				};
+			};
+			buildConfigurationList = 86D920C119C49A1200942E4B /* Build configuration list for PBXProject "plat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 86D920BD19C49A1200942E4B;
+			productRefGroup = 86D920C719C49A1200942E4B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				86D920C519C49A1200942E4B /* plat */,
+				86D920E619C49A1200942E4B /* platTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		86D920C419C49A1200942E4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8623D3D219C6E62C00FD5792 /* PLTSpotInformationViewController.xib in Resources */,
+				8623D3D719C6E65500FD5792 /* PLTRailwayViewController.xib in Resources */,
+				86D920E219C49A1200942E4B /* Images.xcassets in Resources */,
+				86D920D419C49A1200942E4B /* InfoPlist.strings in Resources */,
+				86D920DD19C49A1200942E4B /* Main.storyboard in Resources */,
+				8623D3DC19C6E68D00FD5792 /* PLTIntroductionViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86D920E519C49A1200942E4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86D920F319C49A1200942E4B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CB61FF6E7F1B4B8C951AEF32 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD39411AB1B54137B0C5E34A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		86D920C219C49A1200942E4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86D920D619C49A1200942E4B /* main.m in Sources */,
+				86D920DA19C49A1200942E4B /* PLTAppDelegate.m in Sources */,
+				8620226F19C51AAC001ED342 /* PLTModel.m in Sources */,
+				8620227219C51C2A001ED342 /* PLTRailway.m in Sources */,
+				8623D3D119C6E62C00FD5792 /* PLTSpotInformationViewController.m in Sources */,
+				8623D3DB19C6E68D00FD5792 /* PLTIntroductionViewController.m in Sources */,
+				8623D3D619C6E65500FD5792 /* PLTRailwayViewController.m in Sources */,
+				86D920E019C49A1200942E4B /* PLTViewController.m in Sources */,
+				8623D3CC19C6DCE200FD5792 /* PLTAPIStatus.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86D920E319C49A1200942E4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86D920F519C49A1200942E4B /* plat_iosTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		86D920ED19C49A1200942E4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 86D920C519C49A1200942E4B /* plat */;
+			targetProxy = 86D920EC19C49A1200942E4B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		86D920D219C49A1200942E4B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				86D920D319C49A1200942E4B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		86D920DB19C49A1200942E4B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				86D920DC19C49A1200942E4B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		86D920F119C49A1200942E4B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				86D920F219C49A1200942E4B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		86D920F619C49A1200942E4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		86D920F719C49A1200942E4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		86D920F919C49A1200942E4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DEA6E05B745A482DA2238756 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "plat/plat-Prefix.pch";
+				INFOPLIST_FILE = "plat/plat-Info.plist";
+				PRODUCT_NAME = plat;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		86D920FA19C49A1200942E4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DEA6E05B745A482DA2238756 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "plat/plat-Prefix.pch";
+				INFOPLIST_FILE = "plat/plat-Info.plist";
+				PRODUCT_NAME = plat;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		86D920FC19C49A1200942E4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/plat-ios.app/plat-ios";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "plat/plat-ios-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "platTests/platTests-Info.plist";
+				PRODUCT_NAME = platTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		86D920FD19C49A1200942E4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/plat-ios.app/plat-ios";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "plat-ios/plat-ios-Prefix.pch";
+				INFOPLIST_FILE = "plat-iosTests/platTests-Info.plist";
+				PRODUCT_NAME = platTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		86D920C119C49A1200942E4B /* Build configuration list for PBXProject "plat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86D920F619C49A1200942E4B /* Debug */,
+				86D920F719C49A1200942E4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86D920F819C49A1200942E4B /* Build configuration list for PBXNativeTarget "plat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86D920F919C49A1200942E4B /* Debug */,
+				86D920FA19C49A1200942E4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86D920FB19C49A1200942E4B /* Build configuration list for PBXNativeTarget "platTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86D920FC19C49A1200942E4B /* Debug */,
+				86D920FD19C49A1200942E4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 86D920BE19C49A1200942E4B /* Project object */;
+}
