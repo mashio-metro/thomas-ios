@@ -7,6 +7,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface PLTViewController : UIViewController
+@interface PLTViewController : UIViewController<UITextFieldDelegate
+>
 
 @end

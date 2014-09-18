@@ -39,7 +39,7 @@
 			containerPortal = 86D920BE19C49A1200942E4B /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 86D920C519C49A1200942E4B;
-			remoteInfo = "plat";
+			remoteInfo = plat;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -181,8 +181,7 @@
 				86D920E119C49A1200942E4B /* Images.xcassets */,
 				86D920D019C49A1200942E4B /* Supporting Files */,
 			);
-			name = plat;
-			path = "plat";
+			path = plat;
 			sourceTree = "<group>";
 		};
 		86D920D019C49A1200942E4B /* Supporting Files */ = {
@@ -202,8 +201,7 @@
 				86D920F419C49A1200942E4B /* plat_iosTests.m */,
 				86D920EF19C49A1200942E4B /* Supporting Files */,
 			);
-			name = platTests;
-			path = "platTests";
+			path = platTests;
 			sourceTree = "<group>";
 		};
 		86D920EF19C49A1200942E4B /* Supporting Files */ = {
@@ -233,7 +231,7 @@
 			dependencies = (
 			);
 			name = plat;
-			productName = "plat";
+			productName = plat;
 			productReference = 86D920C619C49A1200942E4B /* plat.app */;
 			productType = "com.apple.product-type.application";
 		};
@@ -251,7 +249,7 @@
 				86D920ED19C49A1200942E4B /* PBXTargetDependency */,
 			);
 			name = platTests;
-			productName = "platTests";
+			productName = platTests;
 			productReference = 86D920E719C49A1200942E4B /* platTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
